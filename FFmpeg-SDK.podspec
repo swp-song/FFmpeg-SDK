@@ -1,5 +1,5 @@
 #
-#  Be sure to run `pod spec lint FFmpegSDK.podspec' to ensure this is a
+#  Be sure to run `pod spec lint FFmpeg-SDK.podspec' to ensure this is a
 #  valid spec and to remove all comments including this before submitting the spec.
 #
 #  To learn more about Podspec attributes see https://guides.cocoapods.org/syntax/podspec.html
@@ -15,10 +15,9 @@ Pod::Spec.new do |spec|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  spec.name         = "FFmpegSDK"
+  spec.name         = "FFmpeg-SDK"
   spec.version      = "1.0.0"
   spec.summary      = "FFmpeg iOS XCFramework"
-
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -29,7 +28,7 @@ Pod::Spec.new do |spec|
   FFmpeg iOS XCFramework By Dream Song
                    DESC
 
-  spec.homepage     = "https://github.com/swp-song/FFmpegSDK"
+  spec.homepage     = "https://github.com/swp-song/FFmpeg-SDK"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -66,10 +65,10 @@ Pod::Spec.new do |spec|
   #
 
   # spec.platform     = :ios
-  spec.platform     = :ios, "13.0"
+  # spec.platform     = :ios, "5.0"
 
   #  When using multiple platforms
-  spec.ios.deployment_target = "13.0"
+  # spec.ios.deployment_target = "5.0"
   # spec.osx.deployment_target = "10.7"
   # spec.watchos.deployment_target = "2.0"
   # spec.tvos.deployment_target = "9.0"
@@ -81,7 +80,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/swp-song/FFmpegSDK.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/swp-song/FFmpeg-SDK.git", :tag => "#{spec.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -98,7 +97,6 @@ Pod::Spec.new do |spec|
   # spec.public_header_files = "Classes/**/*.h"
 
   spec.vendored_frameworks  = 'Sources/FFmpeg.xcframework'
-
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -132,7 +130,7 @@ Pod::Spec.new do |spec|
   #  If your library depends on compiler flags you can set them in the xcconfig hash
   #  where they will only apply to your library. If you depend on other Podspecs
   #  you can include multiple dependencies to ensure it works.
-
+  
   spec.requires_arc = true
 
   spec.pod_target_xcconfig = {
