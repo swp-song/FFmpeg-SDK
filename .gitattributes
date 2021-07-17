@@ -1,1 +1,1 @@
-Sources/** filter=lfs diff=lfs merge=lfs -text
+Sources/**/* filter=lfs diff=lfs merge=lfs -text

@@ -97,6 +97,7 @@ Pod::Spec.new do |spec|
   # spec.public_header_files = "Classes/**/*.h"
 
   spec.vendored_frameworks  = 'Sources/FFmpeg.xcframework'
+  # spec.module_map           = 'Sources/FFmpeg.xcframework/module.modulemap'
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -121,6 +122,7 @@ Pod::Spec.new do |spec|
   # spec.framework  = "SomeFramework"
   spec.frameworks =  "Foundation", "AVFoundation", "CoreMedia", "VideoToolbox", "AudioToolbox"
 
+  
   # spec.library   = "iconv"
   spec.libraries = "z", "bz2", "iconv"
 
