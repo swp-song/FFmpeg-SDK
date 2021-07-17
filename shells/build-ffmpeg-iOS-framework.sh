@@ -97,13 +97,13 @@ function CreateModulemapAndUmbrellaHeader() {
 #import <Foundation/Foundation.h>
 #import <VideoToolbox/VideoToolbox.h>
 #import <AudioToolbox/AudioToolbox.h>
-#include "avcodec.h"
-#include "avdevice.h"
-#include "avfilter.h"
-#include "avformat.h"
-#include "avutil.h"
-#include "swscale.h"
-#include "swresample.h"
+#import "avcodec.h"
+#import "avdevice.h"
+#import "avfilter.h"
+#import "avformat.h"
+#import "avutil.h"
+#import "swscale.h"
+#import "swresample.h"
 FOUNDATION_EXPORT double FFmpegVersionNumber;
 FOUNDATION_EXPORT const unsigned char FFmpegVersionString[];
 EOF
