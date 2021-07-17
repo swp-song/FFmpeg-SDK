@@ -1,6 +1,3 @@
-framework module FFmpeg {
-  umbrella header "ffmpeg.h"
-
-  export *
-  module * { export * }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:b985e8836adfeef9eb7e0288ac9528c80621ff0dfa298707922ddee89c84a940
+size 93
