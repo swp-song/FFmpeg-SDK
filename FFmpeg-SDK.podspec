@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "FFmpeg-SDK"
-  spec.version      = "1.2.0"
+  spec.version      = "1.3.0"
   spec.summary      = "FFmpeg iOS XCFramework"
 
   # This description is used to generate tags and improve search results.
